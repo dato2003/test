@@ -1,5 +1,5 @@
 class Car:
-    is_sport_car =Fals
+    is_sport_car =False
     brand = False
     model =False
     production_year = False
