@@ -1,0 +1,75 @@
+dict1={}
+w=0
+for x in range (5):
+    dict1.update({x:int(input())})
+    w=dict[x]
+    if dict1[x]<dict1[x-1]:
+        w=dict1[x]
+        
+        
+print("The minimum value is",w)    
+print(dict1)
+
+
+
+dict1={}
+def dato():
+   for x in range (5):
+      dict1.update({x:int(input())})
+   return  dict1
+print(dato())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dict1={}
+def dato():
+   for x in range (5):
+      dict1.update({x:int(input())})
+   return  dict1
+print(dato())
+
+
+dict1={}
+def dato():
+   for x in range (5):
+      dict1.update({x:int(input())})
+      w=dict1[x]
+   for x in range (5):
+       r=dict1[x]
+       if r < w :
+           w=r
+           return w
+print (dato())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
