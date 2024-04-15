@@ -1,0 +1,6 @@
+<h1>all subject</h1>
+{%for subject in subjects %}
+<h2><a href=" {% url 'subject_detail' subject.pk  %}">{{subject.Subjects_name}}</a></h2>
+{%empty%}
+<p>no subject available</p>  
+{%endfor%}
